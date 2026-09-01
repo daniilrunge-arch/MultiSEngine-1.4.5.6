@@ -1,0 +1,48 @@
+{
+  "ListenIP": "0.0.0.0",
+  "ListenPort": 7778,
+  "ServerName": "MultiSEngine",
+  "ServerVersion": 319,
+  "SwitchTimeOut": 15000,
+  "EnableCrossplayFeature": false,
+  "EnableChatForward": true,
+  "ChatFormat": "[{servername}] {username}: {message}",
+  "SwitchToDefaultServerOnJoin": true,
+  "RestoreDataWhenJoinNonSSC": false,
+  "DisableTcpDelayWhenPipeline": true,
+  "UseCrowdControlled": false,
+  "DefaultServer": "Server1",
+  "Servers": [
+    {
+      "Visible": true,
+      "Name": "Server1",
+      "ShortName": "s1",
+      "IP": "127.0.0.1",
+      "Port": 7777,
+      "SpawnX": -1,
+      "SpawnY": -1,
+      "VersionNum": -1
+    },
+    {
+      "Visible": true,
+      "Name": "Server2",
+      "ShortName": "s2",
+      "IP": "127.0.0.1",
+      "Port": 8888,
+      "SpawnX": -1,
+      "SpawnY": -1,
+      "VersionNum": -1
+    }
+  ],
+  "EnableSwitchDebuffs": true,
+  "SwitchDebuffIds": [
+    149,
+    156
+  ],
+  "SwitchDebuffTime": 300,
+  "EnableRestApi": true,
+  "RestPort": 7878,
+  "RestName": "MultiSEngine",
+  "RestWorld": "MultiWorld",
+  "RestMaxPlayers": 300
+}
